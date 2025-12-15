@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coming Soon | Sameer Bhatti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coming Soon - Sameer Bhatti (GODREX01)">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.35);
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            opacity: 0.85;
+            margin-bottom: 30px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 6px 14px;
+            border: 1px solid #00e6ff;
+            border-radius: 20px;
+            color: #00e6ff;
+            font-size: 0.85rem;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        .contact {
+            font-size: 0.95rem;
+            opacity: 0.85;
+        }
+
+        .contact span {
+            display: block;
+            margin-top: 6px;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.75rem;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="tag">GODREX01</div>
+        <h1>Coming Soon</h1>
+        <h2>Sameer Bhatti</h2>
+
+        <p>
+            Something powerful is under development.  
+            Stay tuned for cybersecurity tools, research, and innovation.
+        </p>
+
+        <div class="contact">
+            <strong>Contact</strong>
+            <span>📞 +92 310 2683892</span>
+        </div>
+
+        <footer>
+            © 2025 Sameer Bhatti. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
