@@ -1,105 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Coming Soon | Sameer Bhatti</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Coming Soon - Sameer Bhatti (GODREX01)">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sameer Bhatti | Cybersecurity Portfolio</title>
 
-        body {
-            height: 100vh;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #ffffff;
-        }
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-        .container {
-            text-align: center;
-            padding: 40px;
-            max-width: 500px;
-            width: 100%;
-            background: rgba(0, 0, 0, 0.35);
-            border-radius: 12px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
-        }
+<style>
+/* Base */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0b1120, #0f1c2c);
+    color: #e5e7eb;
+    line-height: 1.6;
+}
 
-        h1 {
-            font-size: 2.5rem;
-            letter-spacing: 2px;
-            margin-bottom: 10px;
-        }
+/* Header */
+header {
+    background: linear-gradient(90deg, #020617, #0a0f1e);
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 3px solid #38bdf8;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
 
-        h2 {
-            font-size: 1.2rem;
-            font-weight: 400;
-            opacity: 0.85;
-            margin-bottom: 30px;
-        }
+h1 {
+    margin: 0;
+    color: #38bdf8;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
 
-        .tag {
-            display: inline-block;
-            padding: 6px 14px;
-            border: 1px solid #00e6ff;
-            border-radius: 20px;
-            color: #00e6ff;
-            font-size: 0.85rem;
-            margin-bottom: 25px;
-        }
+header p {
+    color: #9ca3af;
+    margin-top: 5px;
+    font-weight: 500;
+}
 
-        p {
-            font-size: 1rem;
-            line-height: 1.6;
-            margin-bottom: 25px;
-            opacity: 0.9;
-        }
+/* Sections */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
 
-        .contact {
-            font-size: 0.95rem;
-            opacity: 0.85;
-        }
+.section {
+    margin-top: 40px;
+}
 
-        .contact span {
-            display: block;
-            margin-top: 6px;
-        }
+h2 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #1e293b;
+    padding-bottom: 5px;
+}
 
-        footer {
-            margin-top: 30px;
-            font-size: 0.75rem;
-            opacity: 0.6;
-        }
-    </style>
+/* Cards */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: linear-gradient(145deg, #020617, #0f1320);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(56,189,248,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-top: 40px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(56,189,248,0.4);
+}
+
+/* Certificate Cards */
+.cert-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cert-card h3 {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #38bdf8;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #38bdf8;
+    color: #020617;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Badge */
+.badge iframe {
+    border: none;
+    width: 100%;
+    max-width: 420px;
+    height: 220px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(56,189,248,0.2);
+}
+
+/* Footer */
+footer {
+    background: #020617;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    color: #9ca3af;
+    border-top: 2px solid #38bdf8;
+    letter-spacing: 1px;
+}
+
+/* Top button */
+.top-btn {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.3rem; }
+}
+</style>
 </head>
+
 <body>
 
-    <div class="container">
-        <div class="tag">GODREX01</div>
-        <h1>Coming Soon</h1>
-        <h2>Sameer Bhatti</h2>
+<header>
+    <h1>SAMEER BHATTI (GODREX01)</h1>
+    <p>Cybersecurity Analyst | SOC Operations | Penetration Testing</p>
+</header>
 
-        <p>
-            Something powerful is under development.  
-            Stay tuned for cybersecurity tools, research, and innovation.
-        </p>
+<div class="container">
 
-        <div class="contact">
-            <strong>Contact</strong>
-            <span>📞 +92 310 2683892</span>
-        </div>
+<!-- ABOUT -->
+<section class="section">
+<h2>About Me</h2>
+<p>
+Cybersecurity Analyst experienced in SOC operations and penetration testing.
+Focused on threat detection, vulnerability exploitation, and risk reduction.
+</p>
 
-        <footer>
-            © 2025 Sameer Bhatti. All rights reserved.
-        </footer>
-    </div>
+<p>
+<strong>Email:</strong> pip3lee101@gmail.com<br>
+<strong>Phone:</strong> +92 310 2683892<br>
+<strong>Location:</strong> Karachi, Pakistan
+</p>
+</section>
+
+<!-- DOWNLOAD RESUME BUTTON TOP -->
+<div class="top-btn">
+<a href="Cyber_Sameer_Bhatti.pdf" target="_blank" class="btn">Download Resume</a>
+</div>
+
+<!-- CERTIFICATES -->
+<section class="section">
+<h2>Certificates</h2>
+<div class="grid">
+
+<div class="card cert-card">
+<img src="images/cc-isc2.jpg">
+<h3>Certified in Cybersecurity (CC) – (ISC)²</h3>
+<a href="https://my.isc2.org/s/MemberVerification" target="_blank" class="btn">Verify</a>
+</div>
+
+<div class="card cert-card">
+<img src="images/nist-800-53.jpg">
+<h3>NIST SP 800-53 – EC-Council</h3>
+<a href="https://learn.eccouncil.org/certificate/b3a2c8e0-1d13-4e81-b49c-5f6c127055a0?logged=true" target="_blank" class="btn">Verify</a>
+</div>
+
+<div class="card cert-card">
+<img src="images/deep-web.jpg">
+<h3>Deep Web & Cybersecurity – EC-Council</h3>
+<a href="https://learn.eccouncil.org/certificate/30236d9f-91fe-4ef3-b77c-dc1b3e54b6d0?logged=true" target="_blank" class="btn">Verify</a>
+</div>
+
+<div class="card cert-card">
+<img src="images/forensics.jpg">
+<h3>Applied Live Forensics – EC-Council</h3>
+<a href="https://learn.eccouncil.org/certificate/0bbe5a0a-6476-4d33-9e32-5eb795293cc8?logged=true" target="_blank" class="btn">Verify</a>
+</div>
+
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section">
+<h2>Experience</h2>
+
+<div class="card">
+<strong>Cybersecurity Instructor</strong><br>
+SOSTTI – Karachi, Pakistan<br>
+<em>2024 – Present</em>
+<p>
+Delivering hands-on cybersecurity and IT training, helping students develop
+real-world offensive and defensive security skills.
+</p>
+</div>
+
+<div class="card">
+<strong>SQA Freelancing Projects</strong><br>
+California – USA (Remote)<br>
+<em>2022 – 2024</em>
+<p>
+Worked on international software QA projects, performing end-to-end testing,
+automation, and performance evaluation.
+</p>
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section">
+<h2>Education</h2>
+<div class="card">
+<strong>Virtual University of Pakistan</strong><br>
+Bachelor of Science in Computer Science (BSCS)<br>
+<em>2024 – In Progress</em>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section">
+<h2>Projects & Labs</h2>
+<ul>
+<li><strong>DVWA:</strong> Exploited SQLi, XSS, CSRF, RCE vulnerabilities</li>
+<li><strong>OWASP Juice Shop:</strong> Solved ~90% challenges (OWASP Top 10)</li>
+<li><strong>TryHackMe:</strong> Completed 47 rooms (Red Team, Linux, Networking) – @GODREX01</li>
+<li><strong>LetsDefend:</strong> Investigated SOC alerts (Malware, Brute Force, Phishing)</li>
+</ul>
+</section>
+
+<!-- EXPERTISE -->
+<section class="section">
+<h2>Expertise</h2>
+<ul>
+<li>Cybersecurity & SOC Operations</li>
+<li>Penetration Testing</li>
+<li>Software Security</li>
+<li>Secure Development</li>
+<li>Quality Assurance & SQA</li>
+</ul>
+</section>
+
+<!-- TRYHACKME -->
+<section class="section badge">
+<h2>TryHackMe Badge</h2>
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1343341"></iframe>
+</section>
+
+</div>
+
+<footer>
+© 2025 Sameer Bhatti | GODREX01
+</footer>
 
 </body>
 </html>
