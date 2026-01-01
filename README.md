@@ -79,7 +79,17 @@ Step-by-step cybersecurity checklists for structured and efficient execution.
 
 <p>
 👉 <a href="https://godrex01.github.io/01/checklist" target="_blank">
-Access Checklists
+https://godrex01.github.io/01/checklist
+</a>
+</p>
+
+<h3>🔹 GODREX01 Canva Commands List</h3>
+<p>
+A curated collection of cybersecurity commands, scripts, and references
+</p>
+<p>
+👉 <a href="https://www.canva.com/design/DAG4jZ9No1w/MUcDEWMTMVr4t6XqoRXJnw/edit" target="_blank">
+Canva Presentations
 </a>
 </p>
 
