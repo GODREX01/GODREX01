@@ -1,97 +1,136 @@
-# 🔐 GODREX01 | Cybersecurity Lab & Knowledge Hub
+<h1 align="center">🔐 GODREX01 | Cybersecurity Lab & Knowledge Hub</h1>
 
-Welcome to **GODREX01**, a personal cybersecurity workspace focused on **ethical hacking, SOC operations, tools, checklists, and learning resources**.  
-This repository serves as a **central hub** for structured cybersecurity content, practical references, and security workflows.
+<p align="center">
+  <b>Ethical Hacking • SOC Operations • Security Tools • Checklists</b>
+</p>
 
----
+<hr>
 
-## 👨‍💻 About Me
+<h2>👨‍💻 About</h2>
 
-I am a **Cybersecurity Analyst & Instructor** with hands-on experience in:
+<p>
+Welcome to <b>GODREX01</b>, a personal cybersecurity workspace designed to organize
+practical knowledge, tools, and workflows used in real-world cybersecurity.
+</p>
 
-- 🛡️ SOC Operations & Threat Detection  
-- 🔍 Ethical Hacking & Penetration Testing  
-- 🧠 Security Awareness & Training  
-- ⚙️ Tools, Playbooks & Checklists  
+<p>
+This repository is built for:
+</p>
 
-> 🎯 Goal: Build practical, real-world cybersecurity resources for learners and professionals.
+<ul>
+  <li>🛡️ SOC Analysts</li>
+  <li>🔍 Ethical Hackers</li>
+  <li>📘 Cybersecurity Students</li>
+  <li>⚙️ Security Practitioners</li>
+</ul>
 
----
+<hr>
 
-## 📂 Repository Structure
+<h2>📂 Repository Sections</h2>
 
-### 🔹 Main Workspace
-Central access point for all resources and experiments.
+<h3>🔹 Main Workspace</h3>
+<p>
+Central access point for all resources, notes, and experiments.
+</p>
+<p>
+👉 <a href="https://vscode.dev/github/GODREX01/01" target="_blank">
+Open Main Repository
+</a>
+</p>
 
-👉 **Open:**  
-🔗 https://godrex01.github.io/01
+<hr>
 
----
+<h3>🔹 About Me</h3>
+<p>
+Professional background, profile details, and cybersecurity focus.
+</p>
+<p>
+👉 <a href="https://vscode.dev/github/GODREX01/01/me" target="_blank">
+View About Me
+</a>
+</p>
 
-### 🔹 About Me & Profile
-Personal introduction, background, and professional details.
+<hr>
 
-👉 **View:**  
-🔗 https://godrex01.github.io/01/me
+<h3>🔹 Security Tools</h3>
+<p>
+A curated collection of cybersecurity tools, commands, scripts, and references
+used during assessments and SOC operations.
+</p>
+<p>
+👉 <a href="https://vscode.dev/github/GODREX01/01/tools" target="_blank">
+Explore Tools
+</a>
+</p>
 
----
+<hr>
 
-### 🔹 Security Tools
-Collection of cybersecurity tools, commands, references, and notes used in real-world scenarios.
+<h3>🔹 Checklists</h3>
+<p>
+Step-by-step cybersecurity checklists for structured and efficient execution.
+</p>
 
-👉 **Explore:**  
-🔗 https://godrex01.github.io/01/tools
+<ul>
+  <li>SOC Operations</li>
+  <li>Incident Response</li>
+  <li>Penetration Testing</li>
+  <li>Security Assessments</li>
+</ul>
 
----
+<p>
+👉 <a href="https://vscode.dev/github/GODREX01/01/checklist" target="_blank">
+Access Checklists
+</a>
+</p>
 
-### 🔹 Checklists
-Actionable cybersecurity checklists for:
+<hr>
 
-- SOC Analysts  
-- Incident Response  
-- Pentesting Methodology  
-- Security Assessments  
+<h2>🧠 Topics Covered</h2>
 
-👉 **Access:**  
-🔗 https://godrex01.github.io/01/checklist
+<ul>
+  <li>Cybersecurity Fundamentals</li>
+  <li>SOC & Blue Team Operations</li>
+  <li>Ethical Hacking & Red Teaming</li>
+  <li>Security Tools & Utilities</li>
+  <li>Playbooks & Checklists</li>
+</ul>
 
----
+<hr>
 
-## 🚀 Why This Repository?
+<h2>🚀 Why This Repository?</h2>
 
-✔ Beginner-to-Advanced Friendly  
-✔ Real-World Cybersecurity Focus  
-✔ Structured & Easy to Navigate  
-✔ Continuously Updated  
+<ul>
+  <li>✔ Beginner to Advanced Friendly</li>
+  <li>✔ Practical & Real-World Focus</li>
+  <li>✔ Clean Structure</li>
+  <li>✔ Continuously Updated</li>
+</ul>
 
-This repo is designed to **save time**, **increase efficiency**, and **build strong cybersecurity fundamentals**.
+<hr>
 
----
+<h2>🌐 Support</h2>
 
-## 🧠 Topics Covered
+<p>
+If you find this repository helpful:
+</p>
 
-- Cybersecurity Fundamentals  
-- SOC & Blue Team Operations  
-- Ethical Hacking & Red Teaming  
-- Security Tools & Utilities  
-- Practical Checklists & Playbooks  
+<ul>
+  <li>⭐ Star the repository</li>
+  <li>🍴 Fork it</li>
+  <li>📢 Share with the cybersecurity community</li>
+</ul>
 
----
+<hr>
 
-## 🌐 Connect & Follow
+<h2>⚠️ Disclaimer</h2>
 
-If you find this repository useful, don’t forget to:
-
-⭐ Star the repository  
-🍴 Fork for personal use  
-📢 Share with the cybersecurity community  
-
----
-
-### ⚠️ Disclaimer
-All content is intended for **educational and ethical purposes only**.  
+<p>
+All content is intended for <b>educational and ethical purposes only</b>.
 Unauthorized or illegal use of any techniques is strictly discouraged.
+</p>
 
----
+<hr>
 
-**© GODREX01 | Learn • Practice • Secure**
+<p align="center">
+<b>© GODREX01 | Learn • Practice • Secure</b>
+</p>
